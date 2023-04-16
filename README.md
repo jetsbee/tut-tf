@@ -11,7 +11,7 @@ $ ./import_conda_env.sh
 
 ## Activate env
 ```
-$ conda activate ./env
+$ conda activate ./.conda
 ```
 
 ## Deactivate env
@@ -26,7 +26,7 @@ $ conda list
 
 ## Remove env
 ```
-$ conda remove -p ./env --all
+$ conda remove -p ./.conda --all
 ```
 
 ## Export env
