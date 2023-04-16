@@ -11,17 +11,12 @@ $ ./import_conda_env.sh
 
 ## Activate env
 ```
-$ conda activate tut-tf-env
+$ conda activate ./env
 ```
 
 ## Deactivate env
 ```
 $ conda deactivate
-```
-
-## Check env list
-```
-$ conda info --envs
 ```
 
 ## Check deps
@@ -31,7 +26,7 @@ $ conda list
 
 ## Remove env
 ```
-$ conda remove -n tut-tf-env --all
+$ conda remove -p ./env --all
 ```
 
 ## Export env
